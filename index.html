@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+    <title>News App</title>
+</head>
+<body>
+    
+    <button id="goTop">Scroll to top <img src="img/arrowTop.svg" alt="arrow"></button>
+    <header>
+        <div class="container-wrapper">
+            <div class="headerContainer">
+                <div class="boxRight">
+                    <a href="index.html">News App</a>
+                   
+                        <input type="search" name="search" id='inputSearch' placeholder="Type something to start search">
+                        <button id="search"></button>
+                        <div id="countСoincidence" class="countСoincidence">
+                     
+                        </div>
+                </div>
+                <div class="boxLeft">
+                    <button id="burgerMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="navigation"> 
+                        
+                        <li id="Categories" >
+                            Categories
+                            <div class="modalCategories hide">
+                                <ul class="categories">
+                                    <li>Sport</li>
+                                    <li>World</li>
+                                    <li> Covid</li>
+                                    <li>Business</li>
+                                    <li>Politics</li>
+                                    <li>Science</li>
+                                    <li>Religion</li>
+                                    <li>Health</li>
+                                </ul>              
+                  </div>
+                        </li>
+                        <li><a href="index.html">⚡️ Trending news</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="container-wrapper" >
+        <div  id="importantNews">
+            
+        </div>
+        <div class="cardsNews" id="cardNews">
+            
+        </div>
+    </section>
+    <footer>
+        <div class="container-wrapper">
+            <a href="#"><span>News App &#169</span> 2021 copyright all rights reserved</a>
+        </div>
+        
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
